@@ -524,6 +524,7 @@ img {
     padding-inline: 24px;
     width: 165px;
     height: 40px;
+    gap: 16px;
 
     font-weight: 500;
     font-size: 16px;
@@ -535,6 +536,15 @@ img {
     color: #fff;
 
     background-color: #4d5ae5;
+}
+
+.footer-button-svg {
+    fill: #fff;
+}
+
+.footer-button:hover,
+.footer-button:focus {
+    background-color: #31d0aa;
 }
 
 /* #endregion footer */
