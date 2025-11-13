@@ -497,6 +497,8 @@ img {
 }
 
 .footer-form-input {
+    min-width: 264px;
+    height: 40px;
     border: 1px solid #fff;
     border-radius: 4px;
 
@@ -516,7 +518,28 @@ img {
     padding-left: 16px;
 }
 
+.footer-button {
+    border-radius: 4px;
+    padding-block: 8px;
+    padding-inline: 24px;
+    width: 165px;
+    height: 40px;
+
+    font-weight: 500;
+    font-size: 16px;
+
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+
+    background-color: #4d5ae5;
+}
+
 /* #endregion footer */
+
+/* #region modal */
 
 .modal-overlay {
     background-color: rgba(46, 47, 66, 0.4);
@@ -554,3 +577,5 @@ img {
 
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+/* #endregion modal */
