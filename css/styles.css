@@ -511,6 +511,7 @@ img {
     line-height: 2;
     letter-spacing: 0.04em;
     padding-left: 16px;
+    color: #ffffff;
 
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
@@ -519,7 +520,7 @@ img {
 }
 
 .footer-form-input::placeholder {
-    color: #fff;
+    color: #ffffff;
 }
 
 .footer-form-input:hover {
@@ -629,6 +630,7 @@ img {
 .modal-close-button:focus {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 
 .modal-close-button-svg {
